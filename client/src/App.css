@@ -1,0 +1,46 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.TODOContainer {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  padding: 12px 22px;
+}
+
+.TODOItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TODOItemText {
+  border: dashed 1px black;
+  padding: 1px 15px;
+}
+
+button {
+  background-color: #7c70ff;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px 10px 10px;
+}
+
+.TODOItemButton {
+  padding: 10px 15px;
+}
